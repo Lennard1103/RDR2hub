@@ -1,0 +1,76 @@
+:root {
+  --sunset: #f38f29;     /* zonsondergang banner */
+  --rdr2-red: #df1219;   /* rode kleur */
+  --gold: #d4af37;       /* premium goud */
+  --white: #ffffff;      /* standaard wit */
+  --bruin: #6A3320;      /* bruine kleur header */
+}
+
+header{
+  background-color: #6A3320;
+  color: #C9A86A;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  max-width: 100%;
+  z-index: 1000;
+  display: block;
+  margin: 0;
+  padding: 20px;
+}
+header .header-logo {
+  position: absolute;
+  top: 8%;
+  left: 53%;
+  height: 50px;
+  width: auto;
+}
+header h1 {
+  margin: 0;
+}
+.banner{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display:block
+
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner .welcome {
+  color: #f38f29;
+  position: absolute; 
+  top: 10%;
+  left: 2%;
+  font-size: 55px;
+}
+.banner .welcome span { 
+  font-size: 1.35em;
+}
+.nav{
+  background-color: #A96F45;
+  padding: 15px;
+  margin:0;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+.nav ul li {
+
+  text-align: center;
+  text-decoration: none;
+}
+.nav ul li a{
+  text-decoration: none;
+  color:gold;
+  font-size: 25px;
+}
+.nav ul li a:hover{
+  background-color: #373737;
+}
